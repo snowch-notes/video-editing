@@ -44,6 +44,10 @@ ffmpeg -i output.mkv -codec copy output.mp4
 ffprobe -i output.mp4 -print_format json -loglevel fatal -show_streams -count_frames
 ```
 
+### Split movie into equal chunks
+
+https://github.com/c0decracker/video-splitter
+
 ### See also
 
 https://www.youtube.com/watch?v=BiMP_hN8f6s
